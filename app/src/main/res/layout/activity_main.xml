@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:text="@string/apps_text"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:id="@+id/app1"
+        android:onClick="displayToast"
+        android:text="@string/first_app"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:id="@+id/app2"
+        android:onClick="displayToast"
+        android:text="@string/second_app"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:id="@+id/app3"
+        android:onClick="displayToast"
+        android:text="@string/third_app"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:id="@+id/app4"
+        android:onClick="displayToast"
+        android:text="@string/fourth_app"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:id="@+id/app5"
+        android:onClick="displayToast"
+        android:text="@string/fifth_app"/>
+</LinearLayout>
